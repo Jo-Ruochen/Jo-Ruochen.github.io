@@ -1390,7 +1390,7 @@ carbon-piece.text .quote {
 .light carbon-piece.text .paragraph,
 .light carbon-piece.text .quote { color: #555; }
 carbon-piece.text .quote::before,
-carbon-piece.text .quote::after { color: #5eca89; }
+carbon-piece.text .quote::after { color: #20a58e; }
 carbon-piece.text + carbon-piece.image,
 carbon-piece.text + carbon-piece.video,
 carbon-piece.text + carbon-piece.audio,
@@ -1703,33 +1703,33 @@ body.light carbon-paginator a {
 body.light #zoomer.open { background: rgba(240, 240, 240, 0.9); }
 /* imported: '/styles/options/accentColor.scss */
 
-nav .current a { color: #5eca89 !important; }
-nav .current a:hover { color: #5eca89 !important; }
-main a:hover { color: #5eca89; }
-main a { color: #5eca89; }
-footer a { color: #5eca89; }
-.about .links a:hover { color: #5eca89; }
-.about .block.info .resumeLink:hover { background: #5eca89; }
-.details ul li.url p { color: #5eca89; }
-.projects .project .bg { background: #5eca89; }
-.form button:hover { background: #5eca89; }
-.link:hover { border-bottom: 1px solid #5eca89; }
-h2:first-child { color: #5eca89 !important; }
+nav .current a { color: #20a58e !important; }
+nav .current a:hover { color: #20a58e !important; }
+main a:hover { color: #20a58e; }
+main a { color: #20a58e; }
+footer a { color: #20a58e; }
+.about .links a:hover { color: #20a58e; }
+.about .block.info .resumeLink:hover { background: #20a58e; }
+.details ul li.url p { color: #20a58e; }
+.projects .project .bg { background: #20a58e; }
+.form button:hover { background: #20a58e; }
+.link:hover { border-bottom: 1px solid #20a58e; }
+h2:first-child { color: #20a58e !important; }
 h2 a,
 .accent a {
   padding-bottom: 1px;
-  border-bottom: 1px solid rgba(94, 202, 137, 0.2);
+  border-bottom: 1px solid rgba(32, 165, 142, 0.2);
 }
-.accent { color: #5eca89; }
+.accent { color: #20a58e; }
 article a:hover,
 carbon-paginator a:hover {
-  color: #5eca89 !important;
-  border-bottom: 1px solid rgba(94, 202, 137, 0.3);
+  color: #20a58e !important;
+  border-bottom: 1px solid rgba(32, 165, 142, 0.3);
 }
 .dark h2 a,
 .dark .accent a {
   padding-bottom: 1px;
-  border-bottom: 1px solid rgba(94, 202, 137, 0.4);
+  border-bottom: 1px solid rgba(32, 165, 142, 0.4);
 }
 body.monochrome.light .projects .project .metadata .bg,
 body.monochrome.warm .projects .project .metadata .bg { background: #2d2d2d; }
@@ -1746,15 +1746,15 @@ body.monochrome.dark .projects .project .metadata .bg { background: #2d2d2d; }
 }
 .warm .collapsed carbon-waveform > .bar { background: rgba(51, 51, 51, .15); }
 .warm .collapsed carbon-waveform { opacity: 1; }
-carbon-player.audio .control { background: rgba(94, 202, 137, 0.8); }
-carbon-player.audio .control:hover { background: rgba(94, 202, 137, 1); }
-carbon-player.audio.loading .control:hover { background: rgba(94, 202, 137, 0.8); }
-carbon-waveform > .bar.fill { background: rgba(94, 202, 137, 1); }
-carbon-player.audio.played time.current { color: rgba(94, 202, 137, 1); }
-carbon-player.audio.ended time.total { color: rgba(94, 202, 137, 1); }
-carbon-player carbon-scrubber > .track > .playedBar { background: rgba(94, 202, 137, 1); }
-carbon-player.video .control { background: rgba(94, 202, 137, 0.2); }
-carbon-player.video .control:hover { background: rgba(94, 202, 137, 1); }
+carbon-player.audio .control { background: rgba(32, 165, 142, 0.8); }
+carbon-player.audio .control:hover { background: rgba(32, 165, 142, 1); }
+carbon-player.audio.loading .control:hover { background: rgba(32, 165, 142, 0.8); }
+carbon-waveform > .bar.fill { background: rgba(32, 165, 142, 1); }
+carbon-player.audio.played time.current { color: rgba(32, 165, 142, 1); }
+carbon-player.audio.ended time.total { color: rgba(32, 165, 142, 1); }
+carbon-player carbon-scrubber > .track > .playedBar { background: rgba(32, 165, 142, 1); }
+carbon-player.video .control { background: rgba(32, 165, 142, 0.2); }
+carbon-player.video .control:hover { background: rgba(32, 165, 142, 1); }
 /* imported: '/styles/media/media.scss */
 
 @media screen and (max-device-width:1000px) {
